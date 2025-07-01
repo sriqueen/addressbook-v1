@@ -5,7 +5,7 @@
     <groupId>com.preethidevops.tutorial</groupId>
     <artifactId>addressbook</artifactId>
     <packaging>war</packaging>
-    <version>6.0</version>
+    <version>1.0</version>
     <name>Vaadin Addressbook example</name>
 
     <properties>
@@ -515,11 +515,11 @@
             </reporting>
         </profile>
     </profiles>
- <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0f9ptob0ezcw-artifactory-primary-0-snapshots</name>
-        <url>https://trialw6wwxd.jfrog.io/artifactory/newtest-libs-snapshot</url>
-    </snapshotRepository>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0f9ptob0ezcw-artifactory-primary-0-releases</name>
+        <url>https://trialw6wwxd.jfrog.io/artifactory/newtest-libs-release</url>
+    </repository>
 </distributionManagement>
 </project>
