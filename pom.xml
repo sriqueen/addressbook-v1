@@ -516,10 +516,10 @@
         </profile>
     </profiles>
  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>a0qh9y2t72ku7-artifactory-primary-0-releases</name>
-        <url>https://preethidevopsdemo.jfrog.io/artifactory/addbook-libs-release-local</url>
-    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0f9ptob0ezcw-artifactory-primary-0-snapshots</name>
+        <url>https://trialw6wwxd.jfrog.io/artifactory/newtest-libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
